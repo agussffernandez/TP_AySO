@@ -1,0 +1,5 @@
+Agustina:x:1000:1000:Agustina:/home/Agustina:/bin/bash
+root:x:0:0:Super User:/root:/bin/bash
+sync:x:5:0:sync:/sbin:/bin/sync
+halt:x:7:0:halt:/sbin:/sbin/halt
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
