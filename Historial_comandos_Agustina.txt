@@ -1,0 +1,216 @@
+localectl set-keymap latam
++++////
+//||||
+clear
+pwd
+echo $HOME
+ls
+rm archivo*
+clear
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd..
+cd ..
+ls -l
+mkdir repogit
+cd repogit
+git clone git@github.com:agussffernandez/repo_fernandez.git
+sudo dnf install git
+git clone git@github.com:agussffernandez/repo_fernandez.git
+ls
+cd repo_fernandez
+ls -l
+echo "hola"
+echo "hola" > hola.txt
+ls -l
+cat hola.txt 
+git status
+git add .
+git status
+git commit -m "Agrego HOLA"
+git config --global user.email agustinabelenfernandez05@gmail.com
+git config --global user.name "Agustina Fernandez"
+git config user.email
+git config user.name
+git commit -m "Agrego HOLA"
+git status
+git push
+cat /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+head /etc/passwd
+head -n2 /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | mail
+cat /etc/passwd | grep mail
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n  bash
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep -v nologin > archivo1.txt
+ls -l
+cat archivo1.txt 
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin | tail -n3
+cat /etc/passwd | grep -nv nologin | head -n3
+cat /etc/passwd/shadow
+cat /etc/shadow
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep model
+lscpu | grep -i model
+lscpu | grep -i model | head -n1
+lscpu | grep -i model | head -n1 > info_proc.txt
+ls
+cat info_proc.txt 
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+sort
+sort -h
+man sort
+history
+cat /etc/passwd | grep -nv nologin | head -n3
+cat << FIN > bloque_cat.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat bloque_cat.txt 
+bc <<< 4+3
+ls -l
+cat hola.txt 
+echo "chau" >> hola.txt 
+cat hola.txt 
+echo "chau" > chau.txt
+echo "hola" > hola.txt
+cat hola.txt chau.txt > saludo.txt
+cat saludo.txt 
+cat hola.txt 
+cat chau.txt 
+cat saludo.txt 
+ls
+.ssh
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+cd ssh
+cd .ssh
+ls 
+ls -l
+cd ..
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+cd..
+cd ..
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:agussffernandez/TP_AySO.git
+ls
+ls -l
+cd TP_AySO/
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-realese
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami 
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+ls 
+cd datos_usuario.txt
+cat datos_usuario.txt 
+git status
+git add .
+git status
+git user.email
+git --help
+git config user.email
+git config user.name
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+lspci
+lscpu
+lscpu | grep -i model
+lscpu | grep -i "model name"
+ head /proc/cpuinfo | grep -i "model name" >> datos_usuario.txt 
+git status
+ls
+cat datos_usuario.txt 
+git commit -m “feat: Añadiendo información de CPU”
+git status
+git add .
+git status
+git commit -m “feat: Añadiendo información de CPU"
+
+git status
+git log
+git commit -m "feat:Añadiendo informacion de CPU"
+git status
+git log
+grep nologin
+ls nologin
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -v nologin
+grep -v nologin /etc/passwd > lista_ordenada
+ls
+cat lista_ordenada 
+dort lista_ordenada -t":"-k7
+sort lista_ordenada -t":"-k7
+cat lista_ordenada 
+sort lista_ordenada -t":"-k7
+sort lista_ordenada -k7
+grep -v nologin /etc/passwd | sort lista_ordenada -k7 > lista_ordenada 
+cat lista_ordenada 
+ls
+cat lista_ordenada 
+grep -v nologin /etc/passwd > lista_ordenada
+cat lista_ordenada 
+sort lista_ordenada -t":"-k7
+:-k7
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+cat datos_usuario.txt 
+cat README.md 
+git log --oneline
+man cat
+apt-get install nano
+cat /dev/null > README.md 
+cat README.md 
+cat << FIN >> README.md
+cat README.md 
+cat << FIN >> README.md
+# TP_AySOAlumno
+Alumno: <Agustina>
+Division: <115>
+Turno: <Mañana>
+FIN
+
+cat README.md 
+git add .
+git status
+git commit -m "END: agregando datos de alumno"
+git log --oneline
+history -a $HOME/.bash_history
+ls
+ls -la $HOME
+history -a $HOME/.bash_history
